@@ -35,5 +35,5 @@ function FindProxyForURL(url, host) {
     }
 
     // 5) ⚡ Fallback cepat (kalau proxy mati tetap jalan)
-    return "PROXY 192.168.1.1:8080; DIRECT";
+    return "PROXY 192.168.100.1:8080; DIRECT";
 }
